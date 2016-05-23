@@ -2,7 +2,7 @@ function GetData()
 {
     //Open the XML
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", "vidya.xml", false);
+    xmlHttp.open("GET", "https://raw.githubusercontent.com/dom38/script/master/vidya.xml", false);
     xmlHttp.send()
     var xmlDoc = xmlHttp.responseXML;
     
