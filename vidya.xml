@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<film xmlns="myVidya" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="myVidya vidya.xsd">
+    <films>
+        <name>Call of Duty 12</name>
+        <genre>FPS</genre>
+        <platform>PS4/PC/XBone</platform>
+    </films>
+    <film>
+        <name>Uncharted</name>
+        <genre>Action/Adventure</genre>
+        <platform>PS4</platform>
+    </film>
+    <film>
+        <name>Dark Souls III</name>
+        <genre>Git Gud</genre>
+        <platform>PC/PS4/XBone</platform>
+    </film>
+</film>

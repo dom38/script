@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="myFilms" targetNamespace="myFilms">
+    <xs:element name="title" type="xs.string" />
+    <xs:element name="year" type="xs.datetime" />
+    <xs:element name="starring" type="xs.string" />
+
+    <xs:element name="film">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title" />
+                <xs:element ref="starring" />
+                <xs:element ref "year"/>
+            </xs:sequence>
+            <ex:attribute name="id" type="xs:number" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
